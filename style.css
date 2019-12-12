@@ -1,0 +1,73 @@
+a {
+  text-decoration: none;
+  color: #303030;
+}
+div {
+  margin: 0;
+}
+
+.jumbotron i {
+  color: white;
+}
+
+/* Class styles */
+.jumbotron {
+  margin: 0;
+  background-color: #00a7cc;
+  color: white;
+}
+.lead {
+  font-size: 25px;
+  font-weight: 4 00;
+}
+
+.main-header {
+  font-weight: 650;
+}
+.project-header {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.project-icon {
+  font-size: 40px;
+}
+
+.project-section {
+  height: 50%;
+  padding: 60px;
+}
+
+.project-text {
+  font-size: 20px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.view-code-btn {
+  margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 460px) {
+  span {
+    display: block;
+  }
+  .project-icon {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .project-header {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 300;
+  }
+}
